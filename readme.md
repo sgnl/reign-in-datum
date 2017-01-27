@@ -1,4 +1,4 @@
-# reign in datum
+# Reign in datum
 an exercise for dealing with data.
 
 ![i hate exercise](https://media.giphy.com/media/5qaaGRYtLv5JK/giphy.gif)
