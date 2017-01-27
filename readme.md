@@ -13,6 +13,8 @@ in an array of tuples (**tuples tl;dr:** a data structure which contains two val
 Think about how you could transform this data to be easier to work with. You're given two functions to start
 with and encouraged to build more.
 
+*this exercise is intentionally sparse, you are encouraged to whiteboard your solutions before trying to implement*
+
 ## Task
 
 ### `mean` function
