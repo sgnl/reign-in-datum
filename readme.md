@@ -36,4 +36,4 @@ with and encouraged to build more.
 
 ## References
 - [How to calculate a mean value](http://www.mathsisfun.com/mean.html)
-- [how to calculate standard deviation value](http://www.mathsisfun.com/data/standard-deviation.html)
+- [How to calculate standard deviation value](http://www.mathsisfun.com/data/standard-deviation.html)
