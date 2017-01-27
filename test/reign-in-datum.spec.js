@@ -12,7 +12,7 @@ describe('pluckCityData helper function', () => {
   });
 });
 
-describe.skip('mean function', () => {
+describe('mean function', () => {
   it('should find mean of london', () => {
     const result = assertFuzzyEquals(mean('London', data_2015), 51.199999999999996);
     expect(result).to.be.true;
