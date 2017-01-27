@@ -24,6 +24,15 @@ describe('mean function', () => {
   });
 });
 
-describe.skip('variance function', () => {
+describe('variance function', () => {
+  it('should find mean of london', () => {
+    const result = assertFuzzyEquals(variance("London", data_2015), 57.42833333333374);
+    expect(result).to.be.true;
+  });
+
+  it('should find mean of beijing', () => {
+    const result = assertFuzzyEquals(variance("Beijing", data_2015), 4808.37138888889);
+    expect(result).to.be.true;
+  });
 
 });
