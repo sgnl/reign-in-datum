@@ -1,4 +1,6 @@
 
+'use strict';
+
 /**
  * Helper wrapping function
  * prepares data for easier use
@@ -17,12 +19,13 @@ const wrapper = (fn) => (city, data) => fn(city, pluckCityData(city, data));
  * @return Array    an array of Number values
  */
 const pluckCityData = (city, [_, [ collection ] ] = data) => {
-  return collection.split('\n').filter(cityData => {
-    return cityData.split(':')[0] === city;
-  })
-  .map(city => city.split(':')[1])[0]
-  .split(',')
-  .map(month => parseFloat(month.split(' ')[1]));
+  return collection.split('\n')
+    .filter(cityData => {
+      return cityData.split(':')[0] === city;
+    })
+    .map(city => city.split(':')[1])[0]
+    .split(',')
+    .map(month => parseFloat(month.split(' ')[1]));
 };
 
 /**
