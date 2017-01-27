@@ -16,9 +16,7 @@ const mean = (city, data) => {
 
 const variance = (city, data) => {
   const cityMean = mean(city, data);
-  console.log('cityMean: ', cityMean);
   const variance = data.map(val => (val - cityMean) * (val - cityMean));
-  console.log('variance: ', variance);
   return variance.reduce((store, val) => store + val, 0) / variance.length;
 };
 
