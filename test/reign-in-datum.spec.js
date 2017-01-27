@@ -34,5 +34,4 @@ describe('variance function', () => {
     const result = assertFuzzyEquals(variance("Beijing", data_2015), 4808.37138888889);
     expect(result).to.be.true;
   });
-
 });
