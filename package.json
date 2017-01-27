@@ -1,0 +1,24 @@
+{
+  "name": "reign-in-datum",
+  "version": "1.0.0",
+  "description": "an exercise for dealing with data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgnl/reign-in-datum.git"
+  },
+  "keywords": [],
+  "author": "Ray Farias <rayrfarias@gmail.com> (http://github.com/sgnl)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgnl/reign-in-datum/issues"
+  },
+  "homepage": "https://github.com/sgnl/reign-in-datum#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
