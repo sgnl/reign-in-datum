@@ -15,7 +15,7 @@ with and encouraged to build more.
 
 *this exercise is intentionally sparse, you are encouraged to whiteboard your solutions before trying to implement*
 
-## Task
+## Tasks
 
 ### `mean` function
 - accepts two arugments `city` and `data`
@@ -25,10 +25,14 @@ with and encouraged to build more.
 - accepts two arugments `city` and `data`
 - should return the variance of rainfall for the `city` found in `data`.
 
-Create helper function(s) to return a data structure that's better for you to work with.
+### Create helper function(s)
+- return a data structure that's better for you to work with.
 
-## Requirements
-- write additional test for any helper functions you've created
+### Requirements
+- write additional tests for any helper functions you've created
+
+### Caveats
+- you will not need to read in the `data/weather.json` file. The data will be given to you via function parameters
 
 ## References
 - [How to calculate a mean value](http://www.mathsisfun.com/mean.html)
