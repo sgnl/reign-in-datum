@@ -8,12 +8,18 @@ const pluckCityData = (city, [_, [ collection ] ] = data) => {
   .map(month => parseFloat(month.split(' ')[1]));
 };
 
-const mean = (city, data) => {
+const wrapper = (fn) => (city, data) => fn(city, pluckCityData(city, data));
 
+const mean = (city, data) => {
+  return data.reduce((store, val) => store + val, 0) / data.length;
 };
 
 const variance = (city, data) => {
 
 };
 
-module.exports = { mean, variance, pluckCityData };
+module.exports = {
+  mean: wrapper(mean),
+  variance: wrapper(variance),
+  pluckCityData
+};
