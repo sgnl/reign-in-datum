@@ -1,7 +1,7 @@
 # reign in datum
 an exercise for dealing with data.
 
-![i hate exercise][https://media.giphy.com/media/5qaaGRYtLv5JK/giphy.gif]
+![i hate exercise](https://media.giphy.com/media/5qaaGRYtLv5JK/giphy.gif)
 
 As a web developer you will mostly likely be taking in data from somewhere and most of the time the data
 coming in isn't formatted in the best way. This exercise is no different.
