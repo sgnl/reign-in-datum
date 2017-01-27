@@ -14,9 +14,14 @@ Think about how you could transform this data to be easier to work with. You're 
 with and encouraged to build more.
 
 ## Task
-`mean` function accepts two arugments `city` and `data` and should return the average of rainfall for the `city` found in `data`.
 
-`variance` function accepts two arugments `city` and `data` and should return the variance of rainfall for the `city` found in `data`.
+### `mean` function
+- accepts two arugments `city` and `data`
+- should return the average of rainfall for the `city` found in `data`.
+
+### `variance` function
+- accepts two arugments `city` and `data`
+- should return the variance of rainfall for the `city` found in `data`.
 
 Create helper function(s) to return a data structure that's better for you to work with.
 
