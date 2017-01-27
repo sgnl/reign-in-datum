@@ -11,12 +11,12 @@ describe('mean function', () => {
     expect(result).to.be.true;
   });
 
-  it.skip('should find mean of beijing', () => {
+  it('should find mean of beijing', () => {
     const result = assertFuzzyEquals(mean("Beijing", data_2015), 52.416666666666664);
     expect(result).to.be.true;
   });
 });
 
-describe.skip('variance function', () => {
+describe('variance function', () => {
 
 });
