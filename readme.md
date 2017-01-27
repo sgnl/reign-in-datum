@@ -28,10 +28,8 @@ with and encouraged to build more.
 Create helper function(s) to return a data structure that's better for you to work with.
 
 ## Requirements
-- write tests for `mean` function
-- write tests for `variance` function
 - write additional test for any helper functions you've created
 
 ## References
-[How to calculate a mean value](http://www.mathsisfun.com/mean.html)
-[how to calculate standard deviation value](http://www.mathsisfun.com/data/standard-deviation.html)
+- [How to calculate a mean value](http://www.mathsisfun.com/mean.html)
+- [how to calculate standard deviation value](http://www.mathsisfun.com/data/standard-deviation.html)
