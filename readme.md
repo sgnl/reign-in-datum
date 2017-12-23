@@ -18,11 +18,11 @@ with and encouraged to build more.
 ## Tasks
 
 ### `mean` function
-- accepts two arugments `city` and `data`
+- accepts two arguments `city` and `data`
 - should return the average of rainfall for the `city` found in `data`.
 
 ### `variance` function
-- accepts two arugments `city` and `data`
+- accepts two arguments `city` and `data`
 - should return the variance of rainfall for the `city` found in `data`.
 
 ### Create helper function(s)
